@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/White"
+    tools:context=".MainActivity">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="20"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="5"
+        >
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:src="@drawable/logo"
+            />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical"
+        android:layout_weight="15"
+        >
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Name"
+            android:layout_margin="10dp"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:id="@+id/inputname"
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Enter Your Email or Phone Number"
+            android:layout_margin="10dp"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:id="@+id/Emailinput"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Age"
+            android:layout_margin="10dp"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:id="@+id/Ageinput"
+
+            />
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Qualification"
+            android:layout_margin="10dp"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:id="@+id/educationinput"
+
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Your Country"
+            android:layout_margin="10dp"
+            android:textColorHint="@color/colorPrimaryDark"
+            android:textStyle="bold"
+            android:id="@+id/countyinput"
+
+            />
+        <Button
+            android:layout_width="250dp"
+            android:layout_marginLeft="59.9dp"
+            android:layout_height="40dp"
+            android:background="@color/Green"
+            android:text="SUBMIT"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textSize="25dp"
+            android:textColor="@color/Yellow"
+            android:id="@+id/submit"
+            />
+
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
+</LinearLayout>
